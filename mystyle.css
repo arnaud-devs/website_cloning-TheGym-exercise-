@@ -2,3 +2,38 @@ body{
     margin: 0;
     padding:0;
 }
+.nav-bar{
+    display: flex;
+    size: 100%;
+    flex-direction: row;
+    border: 1px solid black;
+
+}
+.nav-bar .nav-logo{
+    display: flex;
+    padding:0 50px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar .right-side{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border: 1px solid #000000;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-link a{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin: 10px;
+}

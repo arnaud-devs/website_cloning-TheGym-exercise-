@@ -92,3 +92,35 @@ body{
     border-radius: 20px;
 
 }
+/*product section*/
+.product{
+    display:flex;
+    padding: 20px;
+    max-width: 100%;
+    border: 1px solid black;
+}
+.product .first-cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+}
+.product .first-cards .register-banner{
+    background-color: rgb(2, 2, 67);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.register-banner .left-side{
+    color: white;
+}
+.register-banner .right-side a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(43, 43, 247);
+    border-radius: 10px;
+
+}

@@ -51,7 +51,7 @@ body{
     justify-content: center;
     height: 90vh;
     align-items: center;
-    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    background-image: url(/assets/heror-cover.avif);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -69,7 +69,7 @@ body{
 }
 
 .hero-content .message .title{
-    font-size: 30px;
+    font-size: 50px;
     color: white;
 }
 .hero-section .hero-content .search-bar{
@@ -95,6 +95,7 @@ body{
 /*product section*/
 .product{
     display:flex;
+    flex-direction: column;
     padding: 20px;
     max-width: 100%;
     border: 1px solid black;
@@ -102,7 +103,6 @@ body{
 .product .first-cards{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     width: 100%;
 }
 .product .first-cards .register-banner{
@@ -146,8 +146,40 @@ body{
 
 }
 .card .image{
-    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
     width: 50%;
     background-size: cover;
     border-radius: 0px 5px 5px 0px;
+}
+
+.card.two .image{
+    background-image: url(/assets/WhatsApp\ Image\ 2025-06-20\ at\ 14.00.46_a3483674.jpg);
+}
+.card.one .image{
+    background-image: url(/assets/WhatsApp\ Image\ 2025-06-20\ at\ 14.00.47_67273250.jpg);
+}
+.card.three .image{
+    background-image: url(/assets/WhatsApp\ Image\ 2025-06-20\ at\ 14.00.47_f53270e6.jpg);
+}
+
+/*accommodation*/
+.accommodation{
+    display: flex;
+}
+.accommodations .text p{
+    font-size: 30px;
+}
+.accommodations .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.accommodations .cards .card{
+    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    width: 17%;
+    height: fit-content;
+    padding-top: 19%;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
 }

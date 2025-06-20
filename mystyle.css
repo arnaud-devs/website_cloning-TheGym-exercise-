@@ -7,6 +7,7 @@ body{
     size: 100%;
     flex-direction: row;
     border: 1px solid black;
+    background-color: white;
 
 }
 .nav-bar .nav-logo{
@@ -19,7 +20,6 @@ body{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    border: 1px solid #000000;
     padding-right: 20px;
     padding-top: 10px;
     padding: 10px;
@@ -29,11 +29,14 @@ body{
     justify-content: flex-end;
 }
 
+.nav-link.btn a{
+    border: 1px solid black;
+    border-radius: 5px;
+}
 .nav-link a{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    border: 1px solid black;
     text-decoration: none;
     margin: 10px;
 }

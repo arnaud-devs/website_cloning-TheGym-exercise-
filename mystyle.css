@@ -47,17 +47,19 @@ body{
 
 .hero-section{
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
+    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero-section .hero-content{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     align-items: center;
+    width:60%;
 }
 .hero-content .message{
     display: flex;
@@ -68,15 +70,18 @@ body{
 
 .hero-content .message .title{
     font-size: 30px;
+    color: white;
 }
 .hero-section .hero-content .search-bar{
     display: flex;
-    border: 1px solid black;
-    padding: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
     background-color: #E5E5E5;
+    width:100%;
+    justify-content: space-evenly;
 }
 .hero-content .search-bar input{
-    padding: 10px;
+    padding: 10px 30px;
     margin-left: 10px;
     border-radius: 5px;
 }

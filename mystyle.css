@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding:0;
 }
+/*navigation-bar*/
 .nav-bar{
     display: flex;
     size: 100%;
@@ -39,4 +40,50 @@ body{
     padding: 10px;
     text-decoration: none;
     margin: 10px;
+}
+
+/*Hero section*/
+
+
+.hero-section{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+.hero-section .hero-content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+}
+.hero-content .message{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.hero-content .message .title{
+    font-size: 30px;
+}
+.hero-section .hero-content .search-bar{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #E5E5E5;
+}
+.hero-content .search-bar input{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.search-bar .search-btn input{
+    background-color: rgb(43, 43, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+
 }

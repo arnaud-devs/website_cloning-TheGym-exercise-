@@ -98,7 +98,7 @@ body{
     flex-direction: column;
     padding: 20px;
     max-width: 100%;
-    border: 1px solid black;
+    height: fit-content;
 }
 .product .first-cards{
     display: flex;
@@ -182,4 +182,67 @@ body{
     border-radius: 5px;
     color: white;
     padding-left: 10px;
+}
+/*trips*/
+.trips{
+    display: flex;
+    flex-direction: column;
+}
+.trips .trips-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.trips-cards .trip-card .image{
+    width: 100%;
+    border: 1px solid blue;
+    height: 50%;
+    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.trips .title{
+    display: flex;
+    flex-direction: column;
+
+}
+.trips .title .sub-title{
+    margin-top: 0px;
+
+}
+.trips .title .title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1%;
+    margin-bottom: 0px;
+}
+.trip-card .contents{
+    display: flex;
+    flex-direction: column;
+}
+.contents .content.one{
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+.content.one .rating{
+    padding: 5px;
+    background-color: rgb(3, 58, 15);
+    border-radius: 5px;
+    color: white;
+}
+.content.two .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content.three .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    height: auto;
+}
+.content.two .title{
+    margin: 0;
+    padding: 0;
+    width: 70%;
 }

@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*navigation-bar*/
 .nav-bar{
@@ -49,9 +50,9 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
-    background-image: url(/assets/heror-cover.avif);
+    background-image: url(/assets/pexels-vikashkr50-19566202.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -86,7 +87,7 @@ body{
     border-radius: 5px;
 }
 .search-bar .search-btn input{
-    background-color: rgb(43, 43, 247);
+    background-color: #006ED6;
     color: white;
     border: none;
     border-radius: 20px;
@@ -98,7 +99,7 @@ body{
     flex-direction: column;
     padding: 20px;
     max-width: 100%;
-    height: fit-content;
+    height: 200vh;
 }
 .product .first-cards{
     display: flex;
@@ -206,15 +207,10 @@ body{
     flex-direction: column;
 
 }
-.trips .title .sub-title{
-    margin-top: 0px;
-
-}
 .trips .title .title{
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 1%;
-    margin-bottom: 0px;
 }
 .trip-card .contents{
     display: flex;
@@ -227,7 +223,7 @@ body{
 }
 .content.one .rating{
     padding: 5px;
-    background-color: rgb(3, 58, 15);
+    background-color: #227950;
     border-radius: 5px;
     color: white;
 }
@@ -238,11 +234,17 @@ body{
 .content.three .title{
     font-size: 30px;
     font-weight: bold;
-    margin: 0;
     height: auto;
 }
 .content.two .title{
-    margin: 0;
     padding: 0;
     width: 70%;
+}
+/*holiday section*/
+.holidays{
+    display: flex;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
 }

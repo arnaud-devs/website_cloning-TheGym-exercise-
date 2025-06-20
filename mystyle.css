@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  Verdana, sans-serif;
 }
 /*navigation-bar*/
 .nav-bar{
@@ -70,7 +70,7 @@ body{
 }
 
 .hero-content .message .title{
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }
 .hero-section .hero-content .search-bar{
@@ -97,7 +97,7 @@ body{
 .product{
     display:flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 4%;
     max-width: 100%;
     height: 200vh;
 }
@@ -107,7 +107,7 @@ body{
     width: 100%;
 }
 .product .first-cards .register-banner{
-    background-color: rgb(2, 2, 67);
+    background-color: #191E3B;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -185,66 +185,84 @@ body{
     padding-left: 10px;
 }
 /*trips*/
-.trips{
+.trips { 
     display: flex;
     flex-direction: column;
 }
-.trips .trips-cards{
+.trips .trips-cards {
     display: flex;
     justify-content: space-between;
 }
-.trips-cards .trip-card .image{
+.trips-cards .trip-card .image {
     width: 100%;
-    border: 1px solid blue;
-    height: 50%;
+    height: 150px;
     background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
     background-size: cover;
     border-radius: 5px;
-
 }
-.trips .title{
+.trips .title {
     display: flex;
     flex-direction: column;
-
 }
-.trips .title .title{
+.trips-cards .trip-card {
+    display: flex;
+    width: 22%;
+    padding: 20px;
+    flex-direction: column;
+    height: 100%;
+}
+.trips .title .title {
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 1%;
 }
-.trip-card .contents{
+.trip-card .contents {
     display: flex;
     flex-direction: column;
 }
-.contents .content.one{
+.contents .content.one {
     display: flex;
     align-items: center;
-    height: max-content;
 }
-.content.one .rating{
+.content.one .rating {
     padding: 5px;
     background-color: #227950;
     border-radius: 5px;
     color: white;
 }
-.content.two .title{
+.content.two{
+    padding: 0;
+}
+
+.content.two .title {
     font-size: 16px;
     font-weight: bold;
+    padding: 0;
+    width: 70%;
 }
-.content.three .title{
+.content.three .title {
     font-size: 30px;
     font-weight: bold;
     height: auto;
 }
-.content.two .title{
-    padding: 0;
-    width: 70%;
-}
-/*holiday section*/
+/*holidays*/
 .holidays{
     display: flex;
-    display: none;
     flex-direction: row;
-    justify-content: center;
-    border: 1px solid black;
+    justify-content: space-between;
+}
+.holiday-card{
+    height: 100%;
+    width: 47%;
+}
+.holiday-card .image{
+    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.holiday-card .content .title{
+    font-weight: normal;
+}
+.holiday-card .holiday-content .sub-title{
+    font-size: 10px;
 }

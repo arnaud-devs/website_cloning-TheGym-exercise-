@@ -288,3 +288,36 @@ body{
 .holiday-card .holiday-content .sub-title{
     font-size: 10px;
 }
+/* find accommodation section */
+
+.accommodation-features{
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    border: 1px solid #555353;
+    padding: 20px ;
+    margin-top: 5%;
+}
+.accommodation-features .text{
+    width: 30%;
+}
+.accommodation-features .features{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 70%;
+}
+.feature{
+    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    width: 20%;
+    padding-top: 19%;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+.accommodation-features .text .title{
+    font-size: 30px;
+    font-weight: bold;
+}

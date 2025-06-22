@@ -297,6 +297,7 @@ body{
     border: 1px solid #555353;
     padding: 20px ;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 .accommodation-features .text{
     width: 30%;
@@ -320,4 +321,41 @@ body{
 .accommodation-features .text .title{
     font-size: 30px;
     font-weight: bold;
+}
+/*rent section */
+.rent{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 12px;
+    padding: 80px 0;
+    padding-left: 0px;
+    align-items: center;
+    background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rent .register{
+    margin-left: 40px;
+    width: 30%;
+    border-radius: 12px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.rent .register .text{
+    margin-bottom: 10px;
+}
+.rent .register .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.register .button a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #006ED6;
+    border-radius: 12px;
+    color: white;
 }

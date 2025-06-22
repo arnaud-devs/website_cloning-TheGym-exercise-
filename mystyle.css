@@ -190,6 +190,7 @@ body{
 .trips { 
     display: flex;
     flex-direction: column;
+    padding: 5% 0;
 }
 .trips .trips-cards {
     display: flex;
@@ -216,6 +217,7 @@ body{
 .trips .title .title {
     font-size: 30px;
     font-weight: bold;
+    margin: 0;
 }
 .trip-card .contents {
     display: flex;
@@ -266,11 +268,13 @@ body{
 .holidays{
     display: flex;
     flex-direction: row;
+    padding:0 0 0  0;
     justify-content: space-between;
 }
 .holiday-card{
     height: 100%;
-    width: 47%;
+    width: 49%;
+
 }
 .holiday-card .image{
     background-image: url(/assets/pexels-olia-danilevich-8562070.jpg);

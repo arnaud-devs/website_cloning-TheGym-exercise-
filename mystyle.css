@@ -401,3 +401,30 @@ body{
     color: #191e3b;
     font-size:28px;
 }
+
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.destination .title{
+    font-weight: bold;
+    color: #191e3b;
+    font-size:28px;
+}
+.destination .places svg{
+    width: 30px;
+    height: 30px;
+}
+.destination .places{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.places .place{
+    font-size: 20px;
+    font-weight: bold;
+
+}

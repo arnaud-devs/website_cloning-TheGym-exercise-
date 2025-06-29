@@ -396,3 +396,8 @@ body{
 .register .button{
     margin-bottom: 5%;
 }
+.about-us .title{
+    font-weight: bold;
+    color: #191e3b;
+    font-size:28px;
+}

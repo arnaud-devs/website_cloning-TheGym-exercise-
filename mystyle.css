@@ -112,7 +112,6 @@ body{
     padding: 5%;
     max-width: 100%;
     height: auto;
-    border: 1px solid black;
 }
 .product .first-cards{
     display: flex;
@@ -427,4 +426,52 @@ body{
     font-size: 20px;
     font-weight: bold;
 
+}
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    background-color: #F7F7F8;
+    padding: 2% 4%;
+    gap: 40px;
+}
+.footer-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links .link .title{
+    font-weight: bold;
+
+}
+footer hr{
+    width: 100%;
+}
+footer span{
+    font-size: 12px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.link .links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.link .links a{
+    text-decoration: none;
+    color:#006ed6;
+    font-size: 12px;
+}
+.big-footer{
+    padding:0 20px;
 }
